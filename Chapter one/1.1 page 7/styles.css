@@ -1,0 +1,168 @@
+body {
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.header__login-section {
+    display: flex;
+}
+
+.header__logo  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.header__login {
+    display: flex;
+    margin-left: 10px;
+    align-self: end;
+}
+
+.header__login--choose {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.header__login--login {
+    text-decoration: underline;
+}
+
+.header__side-nav {
+    margin-top: 10px;
+    display: flex;
+    height: 20px;
+}
+
+.header__side-nav--item {
+    border-right: 1px solid black;
+}
+
+.pl-5 {
+    padding-left: 5px;
+}
+
+.pr-5 {
+    padding-right: 5px;
+}
+
+.header__side-nav--underline {
+    text-decoration: underline;
+}
+
+.search-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: gray;
+}
+
+.search-section__input {
+    margin-left: 10px;
+    width: 250px;
+}
+
+.search-section__select {
+    height: 22px;
+    width: 120px;
+}
+
+.search-section__button {
+    width: 100px;
+    border-radius: 10px;
+}
+
+.category-photo-section {
+    margin-top: 10px;
+    display: flex;
+}
+
+.category-photo-section__side__nav {
+    width: 30%;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+
+.category-photo-section__side__nav--element {
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+
+.category-photo-section__promotional-photos {
+    border: 1px solid black;
+    width: 70%;
+    position: relative;
+}
+
+.category-photo-section__promotional-photos--photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.category-photo-section__promotional-photos-pages {
+    position: absolute;
+    display: flex;
+    right: 10px;
+    bottom: 10px;
+}
+
+.category-photo-section__promotional-photos-pages--page {
+    margin: 5px;
+    padding: 5px;
+    background: gray;
+}
+
+.category-photo-section__promotional-photos-pages--page:hover {
+    cursor: pointer;
+}
+
+.recomended__header {
+    margin-left: 10px;
+}
+
+.recomended__products {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.recomended__products__product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.recomended__products__product--photo {
+    width: 50px;
+    height: 50px;
+    background: gray;
+    border-radius: 10px;
+}
+
+.recomended__products__product--description {
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+.footer {
+    padding: 20px;
+    border-top: 1px solid black;
+    display: flex;
+}
+
+.footer__menu {
+    margin-right: 45px;
+}
