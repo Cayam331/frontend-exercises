@@ -1,0 +1,16 @@
+.bistro {
+    margin: 0 10%;
+}
+
+.bistro--header {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.bistro--logo {
+    text-align: center;
+}
+
+.bistro--title {
+    color: orange;
+}
